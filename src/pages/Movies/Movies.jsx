@@ -1,5 +1,4 @@
 import { fetchQuery } from 'api';
-import { useEffect } from 'react';
 import { useState } from 'react';
 import Gallery from '../../components/Gallery/Gallery';
 
