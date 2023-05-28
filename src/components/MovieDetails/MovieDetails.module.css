@@ -1,0 +1,26 @@
+.movieCard {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.image {
+  height: 500px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 15 px;
+  margin-bottom: 30px;
+}
+
+.back {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+}

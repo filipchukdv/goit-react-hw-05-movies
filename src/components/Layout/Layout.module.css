@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: blue;
+}
+
+:global(.active) {
+  color: blue;
+}
