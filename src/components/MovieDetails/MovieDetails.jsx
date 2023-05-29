@@ -46,10 +46,10 @@ const MovieDetails = () => {
           </section>
           <section className={css.section}>
             <h3>Additional information</h3>
-            <Link to="cast" className={css.link}>
+            <Link to="cast" state={location.state} className={css.link}>
               Cast
             </Link>
-            <Link to="reviews" className={css.link}>
+            <Link to="reviews" state={location.state} className={css.link}>
               Reviews
             </Link>
           </section>
