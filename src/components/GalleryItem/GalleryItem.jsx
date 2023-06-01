@@ -10,8 +10,7 @@ const GalleryItem = ({ title, src, id, date }) => {
       <Link to={`/movies/${id}`} state={location}>
         <img
           loading="lazy"
-          src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${src}`}
-          srcSet={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${src} 1x, /t/p/w1280${src} 2x`}
+          src={`https://image.tmdb.org/t/p/w500${src}`}
           alt={`${title} poster`}
           className={css.image}
         ></img>
