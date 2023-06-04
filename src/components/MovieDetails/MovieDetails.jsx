@@ -29,8 +29,7 @@ const MovieDetails = () => {
             <img
               className={css.image}
               loading="lazy"
-              src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${results.poster_path}`}
-              srcSet={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${results.poster_path} 1x, /t/p/w1280${results.poster_path} 2x`}
+              src={`https://image.tmdb.org/t/p/w500${results.poster_path}`}
               alt={`${results.title} poster`}
             />
             <div>
